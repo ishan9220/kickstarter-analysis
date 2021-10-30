@@ -1,21 +1,31 @@
 # KickStarter-Analysis
 
-## Projet Overview : Explain the purpose of this analysis.
+## Projet Overview : 
 
-### Purpose - This analysis provides data driven insights on the performance of Loue's kickstarter campaigns in terms of how many were successfully funded, failed to received funding and were canceled from 17th May 2009 to 3rd March 2017. 
-Analysis and Challenges: Explain how you performed your analysis using images and links to code, as well as any challenges you encountered and how you overcame them. If you had no challenges, describe any possible challenges or difficulties that could be encountered.
+### Purpose -
 
-Background - 
+The purpose of this analysis is to provide clear insights and recommendations to Louise, our client to allow her to compare her campaign's performance to thousands of  kickstarter campaigns on the basis of how well the campaigns were successfully funded, failed to received funding and were canceled, between 17th May 2009 to 3rd March 2017. 
+
+### Background - 
+Louis, the client's play Fever came close to its fundraising goal in a short amount of time. She would now like  to know how different campaigns fared in relation to their launch dates and their funding goals. Using the Kickstarter dataset, this analysis aims to visualize campaign outcomes based on their launch dates and their funding goals.
+
+
 
 ## Analysis and Challenges
 
+Analysis and Challenges: Explain how you performed your analysis using images and links to code, as well as any challenges you encountered and how you overcame them. If you had no challenges, describe any possible challenges or difficulties that could be encountered.
+
 Analysise performed using  microsoft excel with dataset containing 4114 Kickstarter entertainment campaigns,  9 parent categories and 41 subcategories, goal amount of each title, pledged amount of each title, outcome of the kickstarter campaigns (i.e success, canceled, failed) and country. 
+
+
 
 ## Results : 
 Theater Outcomes by Launch Date - 
 
 Conclusion 1 
 Campaigns which began during the summer months of May, June and July were the most successful with May being the most successful month for campaigns to hit funding goals. These months also had the most volume of campaigns launched at 298. 
+
+![Theater_Outcomes_vs_Launch](path/to/image_name.png)
 
 Conclusion 2 
 The winter months of Nov, Dec and January had the lowest performance in terms of successes  along with very low volume of launched campaigns - 147. 
