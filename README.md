@@ -18,7 +18,7 @@ We are focusing  on the theater parent category where we are observing the volum
 
 Some of the challenges encountered with the data was the unixtimestamp formats of the goal deadline and launched deadlines which needed to be converted to date format and splitting the category and subcategory data into parent category and subcategory to effectively view the data of the theater campaigns which is relevant to Louise. 
 
-[Excel Analysis Reference Sheet](https://github.com/ishan9220/kickstarter-analysis/blob/main/Kickstarter_Challenge.xlsx)
+[Excel Analysis Reference Sheet For Download Here](https://github.com/ishan9220/kickstarter-analysis/blob/main/Kickstarter_Challenge.xlsx)
 
 ## Results : 
 
