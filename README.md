@@ -33,7 +33,7 @@ The winter months of Nov, Dec and January had the lowest performance in terms of
 
 ### Outcomes based on Goals - 
 
-![Outcomes_vs_Goals](https://github.com/ishan9220/kickstarter-analysis/blob/main/Outcomes_vs_Goals.png).
+![Outcomes_vs_Goals](https://github.com/ishan9220/kickstarter-analysis/blob/main/Outcomes%20vs%20Goals_png.png).
 
 **Conclusion** -
 The Most number of succesful theater campaigns were for ones which had funding goals below $15K (889 campaigns) followed by campaigns which had funding goals between $35K to $45K.
