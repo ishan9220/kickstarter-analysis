@@ -1,6 +1,6 @@
 # KickStarter-Analysis
 
-## Projet Overview : 
+## Project Overview : 
 
 ### Purpose -
 
@@ -9,7 +9,6 @@ The purpose of this analysis is to provide clear insights and recommendations to
 ### Background - 
 Louis, the client's play Fever came close to its fundraising goal in a short amount of time. She would now like  to know how different campaigns fared in relation to their launch dates and their funding goals. Using the Kickstarter dataset, this analysis aims to visualize campaign outcomes based on their launch dates and their funding goals.
 
-
 ## Analysis and Challenges
 
 Analysis and Challenges: Explain how you performed your analysis using images and links to code, as well as any challenges you encountered and how you overcame them. If you had no challenges, describe any possible challenges or difficulties that could be encountered.
@@ -17,9 +16,9 @@ Analysis and Challenges: Explain how you performed your analysis using images an
 Analysise performed using  microsoft excel with dataset containing 4114 Kickstarter entertainment campaigns,  9 parent categories and 41 subcategories, goal amount of each title, pledged amount of each title, outcome of the kickstarter campaigns (i.e success, canceled, failed) and country. 
 
 
-
 ## Results : 
-Theater Outcomes by Launch Date - 
+
+### Theater Outcomes by Launch Date - 
 
 Conclusion 1 
 Campaigns which began during the summer months of May, June and July were the most successful with May being the most successful month for campaigns to hit funding goals. These months also had the most volume of campaigns launched at 298. 
@@ -29,17 +28,18 @@ Campaigns which began during the summer months of May, June and July were the mo
 Conclusion 2 
 The winter months of Nov, Dec and January had the lowest performance in terms of successes  along with very low volume of launched campaigns - 147. 
 
-Outcomes based on Goals - 
+### Outcomes based on Goals - 
 
 Conclusion - 
 Most number of succesful campaigns were for ones which had funding goals below $15K, at 889 total successful campaigns. 
 
-Data Set Limitations - 
+### Data Set Limitations - 
+
 Required converting unix timestamps of launched and deadline time of funding into date format to use in pivot and line graphs. The categoriees and subcategories taxonomies were also merged so it required the data to be divided further in parent and sub-categories. 
 
 THis dataset doesn't provide the totat funding amount during each month which can be an important piece of information for Louis to decide success of the campaigns listed. 
 
-Recommendations -
+### Recommendations -
 
 Primary addition would total funds rasied in each month by 
 Addition of stacked graph which shows success, failure and canceled campaigns over years can inform us better of which years were the most successful in term of funding. 
