@@ -25,7 +25,7 @@ Theater Outcomes by Launch Date -
 Conclusion 1 
 Campaigns which began during the summer months of May, June and July were the most successful with May being the most successful month for campaigns to hit funding goals. These months also had the most volume of campaigns launched at 298. 
 
-![Theater_Outcomes_vs_Launch](this PC/Desktop/Analytics Project/Excel Project/Theater_Outcomes_vs_Launch.png)
+![Theater_Outcomes_vs_Launch]/assets/images/Theater_Outcomes_vs_Launch.png
 
 Conclusion 2 
 The winter months of Nov, Dec and January had the lowest performance in terms of successes  along with very low volume of launched campaigns - 147. 
