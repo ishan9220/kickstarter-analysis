@@ -30,6 +30,10 @@ The winter months of Nov, Dec and January had the lowest performance in terms of
 
 ### Outcomes based on Goals - 
 
+Outcomes_vs_Goals
+
+![Outcomes_vs_Goals](path/to/image_name.png).
+
 Conclusion - 
 Most number of succesful campaigns were for ones which had funding goals below $15K, at 889 total successful campaigns. 
 
