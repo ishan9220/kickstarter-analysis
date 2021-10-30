@@ -4,33 +4,34 @@
 
 ### Purpose -
 
-The purpose of this analysis is to provide clear insights and recommendations to Louise, our client to allow her to compare her campaign's performance to thousands of  kickstarter campaigns on the basis of how well the campaigns were successfully funded, failed to received funding and were canceled, between 17th May 2009 to 3rd March 2017. 
+This analysis is an attempt to provide clear insights and recommendations to Louise,  the client to allow her to compare her campaign's performance to thousands of other  kickstarter campaigns on the basis of how successfully the campaigns were funded, failed to received funding and were canceled, between 17th May 2009 to 3rd March 2017 across each month during this time period. 
 
 ### Background - 
-Louis, the client's play Fever came close to its fundraising goal in a short amount of time. She would now like  to know how different campaigns fared in relation to their launch dates and their funding goals. Using the Kickstarter dataset, this analysis aims to visualize campaign outcomes based on their launch dates and their funding goals.
+Louise, the client's play 'Fever' came close to its fundraising goal in a short amount of time. She would now like  to know how different campaigns fared in relation to their launch dates and their funding goals. Using the Kickstarter dataset, this analysis aims to visualize campaign outcomes based on their launch dates and their funding goals.
 
 ## Analysis and Challenges
 
-Analysis and Challenges: Explain how you performed your analysis using images and links to code, as well as any challenges you encountered and how you overcame them. If you had no challenges, describe any possible challenges or difficulties that could be encountered.
+Analysise performed using Excel over a dataset containing 4114 Kickstarter entertainment campaigns,  9 parent categories and 41 subcategories, $ target funding (goals) of each title, $ pledged amount of each title, outcome of the kickstarter campaigns (i.e success, canceled, failed) across 12 countires. 
 
-Analysise performed using  microsoft excel with dataset containing 4114 Kickstarter entertainment campaigns,  9 parent categories and 41 subcategories, goal amount of each title, pledged amount of each title, outcome of the kickstarter campaigns (i.e success, canceled, failed) and country. 
+Able to draw further data points such as average donation per campaign, color code outcomes, percentage funded for each campaign, break up Category and Subcategory by Parent Category and Subcategory. 
 
+Some of the challenges encountered with the data was the unixtimestamp formats of the goal deadline and launched deadlines which needed to be converted to date format. 
+
+[Excel Analysis Link](https://github.com/ishan9220/kickstarter-analysis/blob/main/Kickstarter_Challenge.xlsx)
 
 ## Results : 
 
-### Theater Outcomes by Launch Date - 
+### Theater Outcomes by Launch Date -
+
+![Theater_Outcomes_vs_Launch](https://github.com/ishan9220/kickstarter-analysis/blob/main/Theater_Outcomes_vs_Launch.png)
 
 Conclusion 1 
 Campaigns which began during the summer months of May, June and July were the most successful with May being the most successful month for campaigns to hit funding goals. These months also had the most volume of campaigns launched at 298. 
-
-![Theater_Outcomes_vs_Launch](https://github.com/ishan9220/kickstarter-analysis/blob/main/Theater_Outcomes_vs_Launch.png)
 
 Conclusion 2 
 The winter months of Nov, Dec and January had the lowest performance in terms of successes  along with very low volume of launched campaigns - 147. 
 
 ### Outcomes based on Goals - 
-
-Outcomes_vs_Goals
 
 ![Outcomes_vs_Goals](https://github.com/ishan9220/kickstarter-analysis/blob/main/Outcomes_vs_Goals.png).
 
@@ -49,24 +50,3 @@ Primary addition would total funds rasied in each month by
 Addition of stacked graph which shows success, failure and canceled campaigns over years can inform us better of which years were the most successful in term of funding. 
 
 
-Deliverable 3 Requirements
-Structure, Organization, and Formatting (8 points)
-The written analysis has the following structure, organization, and formatting:
-
-There is a title, and there are multiple paragraphs (2 pt).
-Each paragraph has a heading (2 pt).
-There are subheadings to break up text (2 pt).
-Links are working, and images are correct and displayed where appropriate (2 pt).
-
-
-The written analysis has the following:
-
-Overview of Project
-The purpose and background are well defined (2 pt).
-Analysis and Challenges
-The overview of the analysis is well described with screenshots (2 pt).
-Challenges or difficulties that were encountered, and how they were overcome, are well explained. If there were no difficulties, describe any possible challenges or difficulties that could be encountered (2 pt).
-Results
-Two conclusions are made about the Theater Outcomes by Launch Date (2 pt).
-One conclusion is made about the Outcomes based on Goals (2 pt).
-There is a summary of the limitations of the dataset, and there is a recommendation for additional tables or graphs (2 pt).
