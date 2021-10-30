@@ -4,18 +4,18 @@
 
 ### Purpose -
 
-This analysis is an attempt to provide clear insights and recommendations to Louise to allow her to compare her campaign's performance to thousands of other  kickstarter campaigns on the basis of how successfully the campaigns were funded, failed to received funding and were canceled, between 17th May 2009 to 3rd March 2017 across each month during this time period, with a clear focus within the theater category. 
+This analysis aims to provide insights and recommendations to Louise, to be able to acertain when she should begin her first crowdfunding campaign for her upcominig play 'Fever" for which she has a estimate budget of $10,000. The insights and recommendations have been sourced from a kickstarter dataset which comprises of 4114 campaigns which were launched between 2009-2017, across 9 entertainment categories, with a focus on theaters. 
 
 ### Background - 
-Louise, the client's play 'Fever' came close to its fundraising goal in a short amount of time. She would now like  to know how different campaigns fared in relation to their launch dates and their funding goals. Using the Kickstarter dataset, this analysis aims to visualize campaign outcomes based on their launch dates and their funding goals.
+Louise, a playwirght and our client is looking to come up with her first kickstarter crowdfunding campaign for her play 'Fever'. She would  like to know how different campaigns fared in relation to their launch dates and their funding goals.
 
-## Analysis and Challenges
+## Analysis and Challenges - 
 
-Analysise performed using Excel over a dataset containing 4114 Kickstarter entertainment campaigns,  9 parent categories and 41 subcategories,  funding goals of each title,  pledged funded amount of each title and outcome of the kickstarter campaigns (i.e success, canceled, failed) across 12 countires. 
+The Analysis includes working with Excel over a dataset containing 4114 Kickstarter  campaign IDs,  9 parent categories and 41 subcategories,  funding goals of campaign IDs,  pledged amount of campaign IDs, and outcomes of each of them. (i.e success, canceled, failed) across 12 countries. There is a focus within the theater parent category where we are observing the volume of outcome types of the theater campaigns by monthly launches and comparing the success/failure rate of the theater campaigns across these months to better understand which months had the most successes. 
 
-Able to draw further data points such as average donation per campaign, color code outcomes, percentage funded for each campaign, break up by Category and Subcategory and show the success rate of funding for campaigns within the theater parent category. 
+### Challenges 
 
-Some of the challenges encountered with the data was the unixtimestamp formats of the goal deadline and launched deadlines which needed to be converted to date format. 
+Some of the challenges encountered with the data was the unixtimestamp formats of the goal deadline and launched deadlines which needed to be converted to date format and splitting the category and subcategory data into parent category and subcategory to effectively view the data of the theater campaigns which is relevant to Louise. 
 
 [Excel Analysis Reference Sheet](https://github.com/ishan9220/kickstarter-analysis/blob/main/Kickstarter_Challenge.xlsx)
 
@@ -26,10 +26,10 @@ Some of the challenges encountered with the data was the unixtimestamp formats o
 ![Theater_Outcomes_vs_Launch](https://github.com/ishan9220/kickstarter-analysis/blob/main/Theater_Outcomes_vs_Launch.png)
 
 **Conclusion 1** -
- Campaigns under the Theater category which began during the summer months of May, June and July were much more successful with May being the most successful month (111). These months also had the most volume of Theater campaigns launched, at 298. 
+ Campaigns under the Theater category which began during the summer months of May, June and July were much more successful with May being the most successful month (111). 
 
 **Conclusion 2** -
-The winter months of Nov, Dec and January had the lowest performance in terms of successes  along with very low volume of launched campaigns - 147. 
+The winter months of Nov, Dec and January had the lowest performance in terms of successes  along with very low volume of launched campaigns - 147 total across these months while 298 campaigns were launched across May, June and July.  
 
 ### Outcomes based on Goals - 
 
@@ -40,13 +40,11 @@ The Most number of succesful theater campaigns were for ones which had funding g
 
 ### Data Set Limitations - 
 
-Required converting unix timestamps of launched and deadline time of funding into date format to use in pivot and line graphs. The categoriees and subcategories taxonomies were also merged so it required the data to be divided further in parent and sub-categories. 
-
-THis dataset doesn't provide the totat funding amount during each month which can be an important piece of information for Louis to decide success of the campaigns listed. 
+THis data set doesn't provide the totat funding amount per campaign during each month which can be an important piece of information for Louis to understand which month brought in the most funds per campaign. 
+Addtionally we are also not clear of the average funding time of each campaign which is another important metric for Louise to know how long she can expect to wait to hit her funding goals. 
 
 ### Recommendations -
 
-Primary addition would be to add a bar chart which would show total funds rasied in each month to also determine which months provided the most funds, regardless of successful outcomes. 
-Additionally view outcome mix as a stacked column (Y axis) across all parent categories (x axis) to understand which category had the most success.
+Recommend craeting a new column in the Kickstarter data set which provides the total active time of each campaign in terms of days. This can tell usthe time it took for each camapign in the theater category to meet or fail it's campaign fund goals and we will be able uncover the average success time for each theater campaign, the standard deviation of campaigns across the funding levels ($1-$50K. 
 
 
