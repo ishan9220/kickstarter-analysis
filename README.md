@@ -32,7 +32,7 @@ The winter months of Nov, Dec and January had the lowest performance in terms of
 
 Outcomes_vs_Goals
 
-![Outcomes_vs_Goals](path/to/image_name.png).
+![Outcomes_vs_Goals](https://github.com/ishan9220/kickstarter-analysis/blob/main/Outcomes_vs_Goals.png).
 
 Conclusion - 
 Most number of succesful campaigns were for ones which had funding goals below $15K, at 889 total successful campaigns. 
