@@ -10,7 +10,6 @@ The purpose of this analysis is to provide clear insights and recommendations to
 Louis, the client's play Fever came close to its fundraising goal in a short amount of time. She would now like  to know how different campaigns fared in relation to their launch dates and their funding goals. Using the Kickstarter dataset, this analysis aims to visualize campaign outcomes based on their launch dates and their funding goals.
 
 
-
 ## Analysis and Challenges
 
 Analysis and Challenges: Explain how you performed your analysis using images and links to code, as well as any challenges you encountered and how you overcame them. If you had no challenges, describe any possible challenges or difficulties that could be encountered.
