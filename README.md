@@ -36,7 +36,7 @@ The winter months of Nov, Dec and January had the lowest performance in terms of
 ![Outcomes_vs_Goals](https://github.com/ishan9220/kickstarter-analysis/blob/main/Outcomes_vs_Goals.png).
 
 **Conclusion** -
-Most number of succesful campaigns were for ones which had funding goals below $15K, at 889 total successful campaigns. 
+The Most number of succesful theater campaigns were for ones which had funding goals below $15K (889 campaigns) followed by campaigns which had funding goals between $35K to $45K.
 
 ### Data Set Limitations - 
 
@@ -46,7 +46,7 @@ THis dataset doesn't provide the totat funding amount during each month which ca
 
 ### Recommendations -
 
-Primary addition would total funds rasied in each month by 
-Addition of stacked graph which shows success, failure and canceled campaigns over years can inform us better of which years were the most successful in term of funding. 
+Primary addition would be to add a bar chart which would show total funds rasied in each month to also determine which months provided the most funds, regardless of successful outcomes. 
+Additionally view outcome mix as a stacked column (Y axis) across all parent categories (x axis) to understand which category had the most success.
 
 
