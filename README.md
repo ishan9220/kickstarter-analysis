@@ -17,7 +17,7 @@ Able to draw further data points such as average donation per campaign, color co
 
 Some of the challenges encountered with the data was the unixtimestamp formats of the goal deadline and launched deadlines which needed to be converted to date format. 
 
-[Excel Analysis Link](https://github.com/ishan9220/kickstarter-analysis/blob/main/Kickstarter_Challenge.xlsx)
+[Excel Analysis Reference Sheet](https://github.com/ishan9220/kickstarter-analysis/blob/main/Kickstarter_Challenge.xlsx)
 
 ## Results : 
 
